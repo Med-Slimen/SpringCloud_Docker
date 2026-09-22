@@ -1,5 +1,6 @@
 package com.slimene.projet.restControllers;
 
+import com.slimene.projet.dto.APIResponseDto;
 import com.slimene.projet.dto.ProjetDto;
 import com.slimene.projet.service.ProjetService;
 import lombok.AllArgsConstructor;
@@ -15,12 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class ProjetController {
     private ProjetService projetService;
-    @GetMapping("{code}")
-    public ResponseEntity<ProjetDto> getProdByCode(@PathVariable("code")
-                                                      String code )
+    @GetMapping("{id}")
+    public ResponseEntity<APIResponseDto> getProjetById(@PathVariable("id")
+                                                      Long id )
     {
-        return new ResponseEntity<ProjetDto>(
-                projetService.getProjetByCode(code),
+        return new ResponseEntity<APIResponseDto>(
+                projetService.getProjetById(id),
                 HttpStatus.OK);
     }
 }

@@ -1,14 +1,14 @@
 package com.slimene.projet.dto;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProjetDto {
+
+public class DepartementDto {
     private Long id;
-    private String ProjName;
+    private String nomDeaprt;
     private String depCode;
 }
-

@@ -9,4 +9,5 @@ import lombok.NoArgsConstructor;
 public class DepartementDto {
     private Long id;
     private String nomDeaprt;
+    private String depCode;
 }

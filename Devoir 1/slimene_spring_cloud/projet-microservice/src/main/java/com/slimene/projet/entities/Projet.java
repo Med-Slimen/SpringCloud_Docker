@@ -17,5 +17,6 @@ public class Projet {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String projName;
-    private String projCode;
+    private String depCode;
+
 }

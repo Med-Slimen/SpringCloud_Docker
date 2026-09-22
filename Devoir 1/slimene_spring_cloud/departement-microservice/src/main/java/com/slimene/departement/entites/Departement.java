@@ -17,5 +17,7 @@ public class Departement {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nomDeaprt;
+    private String depCode;
+
 
 }

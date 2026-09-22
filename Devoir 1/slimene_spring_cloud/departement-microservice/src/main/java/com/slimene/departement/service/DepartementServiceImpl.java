@@ -15,7 +15,16 @@ public class DepartementServiceImpl implements DepartementService {
         Departement departement = departementRepository.findById(id).get();
         return new DepartementDto(
                 departement.getId(),
-                departement.getNomDeaprt()
+                departement.getNomDeaprt(),
+                departement.getDepCode()
         );
+    }
+    @Override
+    public DepartementDto getDepartementByCode(String code) {
+        Departement departement = departementRepository.findByDepCode(code);
+        if (departement == null) {
+            throw new RuntimeException("Departement not found with code: " + code);
+        }
+        return new DepartementDto(departement.getId(), departement.getDepCode(), departement.getNomDeaprt());
     }
 }

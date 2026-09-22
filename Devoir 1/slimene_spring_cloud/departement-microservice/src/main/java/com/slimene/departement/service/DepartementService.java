@@ -4,4 +4,5 @@ import com.slimene.departement.dto.DepartementDto;
 
 public interface DepartementService {
     DepartementDto getDepartementById(Long id);
+    DepartementDto getDepartementByCode(String code);
 }

@@ -15,12 +15,17 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class DepartementController {
     private DepartementService departementService;
+    /*
     @GetMapping("{id}")
     public ResponseEntity<DepartementDto> getTeacherById(@PathVariable("id")
                                                      Long id )
     {
         return new ResponseEntity<DepartementDto>(
                 departementService.getDepartementById(id), HttpStatus.OK);
+    }*/
+    @GetMapping("{code}")
+    public DepartementDto getByCode(@PathVariable String code) {
+        return departementService.getDepartementByCode(code);
     }
 
 }

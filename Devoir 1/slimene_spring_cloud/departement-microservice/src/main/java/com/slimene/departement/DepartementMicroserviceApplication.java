@@ -18,6 +18,7 @@ public class DepartementMicroserviceApplication {
         return args -> {
             departementRepository.save(Departement.builder()
                     .nomDeaprt("Developpement Web")
+                    .depCode("DW")
                     .build());
 
         };
