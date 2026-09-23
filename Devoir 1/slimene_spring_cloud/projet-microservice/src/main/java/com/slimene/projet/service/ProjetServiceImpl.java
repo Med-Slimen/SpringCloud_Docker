@@ -15,23 +15,28 @@ public class ProjetServiceImpl implements ProjetService {
     ProjetRepository projetRepository;
     @Autowired
     private WebClient webClient;
+    @Autowired
+    private APIClient apiClient;
     @Override
     public APIResponseDto getProjetById(Long id) {
         Projet projet = projetRepository.findById(id).get();
+        DepartementDto departementDto = apiClient.getDepByCode(projet.getDepCode());
+        /*
         DepartementDto departmentDto = webClient.get()
                 .uri("http://localhost:8080/api/departements/" +
                         projet.getDepCode())
                 .retrieve()
                 .bodyToMono(DepartementDto.class)
-                .block();
+                .block();*/
         ProjetDto projetDto = new ProjetDto(
                 projet.getId(),
                 projet.getProjName(),
-                projet.getDepCode()
+                projet.getDepCode(),
+                departementDto.getNomDeaprt()
         );
         APIResponseDto apiResponseDto = new APIResponseDto();
         apiResponseDto.setProjetDto(projetDto);
-        apiResponseDto.setDepartmentDto(departmentDto);
+        apiResponseDto.setDepartmentDto(departementDto);
         return apiResponseDto;
     }
 }

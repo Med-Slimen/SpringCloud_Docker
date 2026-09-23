@@ -6,23 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f1daaa61-a4f5-4be0-8ea6-2fff30113f49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/DepartementMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/DepartementMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/controller/DepartementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/controller/DepartementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/dto/DepartementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/dto/DepartementDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/entites/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/entites/Departement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/repos/DepartementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/repos/DepartementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/service/DepartementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/service/DepartementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/service/DepartementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/service/DepartementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/ProjetMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/ProjetMicroserviceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/dto/ProjetDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/dto/ProjetDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/entities/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/entities/Projet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/repos/ProjetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/repos/ProjetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/restControllers/ProjetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/restControllers/ProjetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/ProjetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/ProjetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/ProjetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/ProjetServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

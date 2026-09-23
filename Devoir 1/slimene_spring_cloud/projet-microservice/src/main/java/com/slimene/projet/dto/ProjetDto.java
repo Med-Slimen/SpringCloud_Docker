@@ -10,5 +10,7 @@ public class ProjetDto {
     private Long id;
     private String ProjName;
     private String depCode;
+    private String nomDepart;
+
 }
 
