@@ -7,11 +7,10 @@
     <list default="true" id="f1daaa61-a4f5-4be0-8ea6-2fff30113f49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/departement-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/controller/DepartementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/controller/DepartementController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
     "Spring Boot.DepartementMicroserviceApplication.executor": "Run",
     "Spring Boot.EurekaserverApplication.executor": "Run",
     "Spring Boot.GatewayserverApplication.executor": "Run",
@@ -56,7 +56,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/projet-microservice/src/main/java/com/slimene/projet",
+    "last_opened_file_path": "D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/config-repo",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -67,6 +67,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\SpringCloud_Docker\Devoir 1\slimene_spring_cloud\config-repo" />
+      <recent name="D:\dev\SpringCloud_Docker\Devoir 1\slimene_spring_cloud\configserver\src\main\resources\config" />
       <recent name="D:\dev\SpringCloud_Docker\Devoir 1\slimene_spring_cloud\projet-microservice\src\main\java\com\slimene\projet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -77,6 +79,42 @@
     <option name="myCommands">
       <command value="mvn clean install" />
     </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigserverApplication">
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.slimene.configserver.ConfigserverApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slimene.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartementMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="departement-microservice" />
+      <option name="PROGRAM_PARAMETERS" value="--build.version=55 --spring.profiles.active=qa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.slimene.departement.DepartementMicroserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.slimene.departement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigserverApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
