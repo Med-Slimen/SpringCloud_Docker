@@ -20,6 +20,10 @@ public class DepartementMicroserviceApplication {
                     .nomDeaprt("Developpement Web")
                     .depCode("DW")
                     .build());
+            departementRepository.save(Departement.builder()
+                    .nomDeaprt("Design")
+                    .depCode("DN")
+                    .build());
 
         };
     }

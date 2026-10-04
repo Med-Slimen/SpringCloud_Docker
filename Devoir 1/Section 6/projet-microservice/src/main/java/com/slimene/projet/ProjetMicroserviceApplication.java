@@ -20,12 +20,12 @@ public class ProjetMicroserviceApplication {
     CommandLineRunner commandLineRunner(ProjetRepository departmentRepository) {
         return args -> {
             departmentRepository.save(Projet.builder()
-                    .projName("Info Tech")
+                    .projName("Creation Site Web")
                             .depCode("DW")
                     .build());
             departmentRepository.save(Projet.builder()
-                    .projName("Marketing")
-                            .depCode("DW")
+                    .projName("Creation d affiche")
+                            .depCode("DN")
                     .build());
         };
     }
