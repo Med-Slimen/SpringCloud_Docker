@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: "localhost"
+    host: ${RABBITMQ_HOST:localhost}
     port: 5672
     username: "guest"
   profiles:
@@ -23,13 +23,18 @@ spring:
       enabled: true
     discovery:
       enabled: true
+    refresh:
+      never-refreshable: com.zaxxer.hikari.HikariDataSource,org.springframework.cloud.netflix.eureka.EurekaInstanceConfigBean
 
 eureka:
   client:
+    refresh:
+      enable: false
     service-url:
       defaultZone: ${DISCOVERY_SERVICE_URL:http://localhost:8761/eureka/}
   instance:
     prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
 
 management:
   endpoints:
