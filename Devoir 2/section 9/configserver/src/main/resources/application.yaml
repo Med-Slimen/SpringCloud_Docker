@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    #active: native
+    active: git
+  cloud:
+    config:
+      server:
+        #native:
+          # search-locations: "classpath:/config"
+          #search-locations: file:///D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/config-repo
+        git:
+          uri: https://github.com/Med-Slimen/config-repo.git
+          default-label: main
+          clone-on-start: true
+server:
+  port: 9999
