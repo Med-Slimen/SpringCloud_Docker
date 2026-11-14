@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1daaa61-a4f5-4be0-8ea6-2fff30113f49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Devoir 2/section 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Devoir 2/section 10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Devoir 2/section 10/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Devoir 2/section 10/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/java/com/slimene/projet/service/APIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.ConfigserverApplication.executor": "Run",
-    "Spring Boot.DepartementMicroserviceApplication.executor": "Run",
+    "Spring Boot.DepartementMicroserviceApplication.executor": "Debug",
     "Spring Boot.EurekaserverApplication.executor": "Run",
     "Spring Boot.GatewayserverApplication.executor": "Run",
     "Spring Boot.ProjetMicroserviceApplication.executor": "Run",
@@ -157,10 +163,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayserverApplication" />
         <item itemvalue="Spring Boot.ProjetMicroserviceApplication" />
         <item itemvalue="Spring Boot.EurekaserverApplication" />
         <item itemvalue="Spring Boot.ConfigserverApplication" />
-        <item itemvalue="Spring Boot.GatewayserverApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +190,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.integration:spring-integration-core" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-stream" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.ws.rs:jakarta.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

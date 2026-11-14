@@ -21,7 +21,7 @@ spring:
   cloud:
     openfeign:
       circuitbreaker:
-      enabled: true
+        enabled: true
     config:
       enabled: true
     discovery:

@@ -12,7 +12,7 @@ public class GatewayserverApplication {
     public static void main(String[] args) {
         SpringApplication.run(GatewayserverApplication.class, args);
     }
-    /*@Bean
+    @Bean
     public RouteLocator MyRouteConfig(RouteLocatorBuilder routeLocatorBuilder)
     {
         return routeLocatorBuilder.routes()
@@ -21,7 +21,9 @@ public class GatewayserverApplication {
                         .uri("lb://departement"))
                 .route(p -> p
                         .path("/api/projets/**")
+                        .filters( f -> f.circuitBreaker(config ->
+                                config.setName("projetCircuitBreaker")))
                         .uri("lb://projet"))
                 .build();
-    }*/
+    }
 }
