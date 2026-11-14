@@ -7,7 +7,7 @@
     <list default="true" id="f1daaa61-a4f5-4be0-8ea6-2fff30113f49" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/config-repo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/controller/FallBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/slimene/gatewayserver/controller/FallBackController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,11 +222,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/slimene/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/departement-microservice/src/main/java/com/slimene/departement/service/DepartementServiceImpl.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.springframework.data.core.PropertyReferenceException" package="org.springframework.data.core" />
