@@ -1,9 +1,9 @@
 spring:
-#  rabbitmq:
-#    host: "localhost"
-#    port: 5672
-#    username: "guest"
-#    password: "guest"
+  rabbitmq:
+    host: ${RABBITMQ_HOST:localhost}
+    port: 5672
+    username: "guest"
+    password: "guest"
   application:
     name: "configserver"
   profiles:
@@ -15,7 +15,7 @@ spring:
         monitor:
           validation-filter-enabled: false
         #native:
-          # search-locations: "classpath:/config"
+           #search-locations: "classpath:/config"
           #search-locations: file:///D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/config-repo
         git:
           uri: https://github.com/Med-Slimen/config-repo.git

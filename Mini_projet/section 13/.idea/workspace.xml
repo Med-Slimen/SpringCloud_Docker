@@ -10,9 +10,12 @@
       <change beforePath="$PROJECT_DIR$/../section 12/gatewayserver/src/main/java/com/slimene/gatewayserver/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section 12/gatewayserver/src/main/java/com/slimene/gatewayserver/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../section 12/gatewayserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../section 12/gatewayserver/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13++Securing+microservices+using+docker.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/departement-microservice/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projet-microservice/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,36 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DepartementMicroserviceApplication.executor": "Run",
-    "Maven.configserver [clean,package,-DskipTests].executor": "Run",
-    "Maven.departement-microservice [clean,install].executor": "Run",
-    "Maven.departement-microservice [clean,package...].executor": "Run",
-    "Maven.eurekaserver [clean,package,-DskipTests].executor": "Run",
-    "Maven.gatewayserver [clean,package,-DskipTests].executor": "Run",
-    "Maven.projet-microservice [clean,package...].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.ConfigserverApplication.executor": "Run",
-    "Spring Boot.DepartementMicroserviceApplication.executor": "Run",
-    "Spring Boot.EurekaserverApplication.executor": "Run",
-    "Spring Boot.GatewayserverApplication.executor": "Run",
-    "Spring Boot.ProjetMicroserviceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/dev/SpringCloud_Docker/Mini_projet/section 13",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/src/main/java/com/slimene/Main.java",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DepartementMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.configserver [clean,package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.departement-microservice [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.departement-microservice [clean,package...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurekaserver [clean,package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gatewayserver [clean,package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.projet-microservice [clean,package...].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DepartementMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProjetMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/SpringCloud_Docker/Mini_projet/section 12&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/dev/SpringCloud_Docker/Devoir 1/slimene_spring_cloud/src/main/java/com/slimene/Main.java&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\SpringCloud_Docker\Devoir 2\section 10\projet-microservice\src\main\java\com\slimene\projet" />
